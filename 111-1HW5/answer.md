@@ -1,12 +1,12 @@
 ﻿# 第5次作業-作業-HW5
 >
->學號：1234567 
+>學號：109111110
 ><br />
->姓名：王小明 
+>姓名：林育德 
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
+>作業撰寫時間：60 (mins，包含程式撰寫時間)
 ><br />
->最後撰寫文件日期：2022/10/12
+>最後撰寫文件日期：2022/12/21
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -44,6 +44,8 @@ public void mt_getResult(){
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="Button1" runat="server" Text="點我新增資料" OnClick="Button1_Click" />
+            <asp:GridView ID ="gd_View" runat="server"></asp:GridView>
         </div>
     </form>
 </body>
@@ -55,4 +57,6 @@ public void mt_getResult(){
 
 開始寫說明，需要說明本次作業個人覺得需學會那些觀念 (需寫成文章，需最少50字，
 並且文內不得有你、我、他三種文字)
-
+需學會並了解
+ADO vs. ADO.NET
+連結資料庫各個部分程式寫法
