@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:Button ID="Button1" runat="server" Text="點我新增資料" OnClick="Button1_Click" />
-            <asp:GridView ID="gd_View" runat="server"></asp:GridView>
+            <asp:GridView ID ="gd_View" runat="server"></asp:GridView>
         </div>
     </form>
 </body>
